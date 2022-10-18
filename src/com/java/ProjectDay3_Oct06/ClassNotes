@@ -1,0 +1,49 @@
+10/06/2022
+
+Java Operators:
+
+1. Arithmetic Operators (+, -, *, etc.)
+2. Assignment Operators (=, +=, -+)
+    - String name; -> declaration
+    - name = "Monica" -> assigning the value
+    - System.out.println(name); -> Monica
+    - name = "Robert"; -> change value or re-assigning
+    - System.out.println(name); -> Robert
+
+   String name = "Monica"; -> initialized variable
+
+3. Comparison Operators (==, >, <, >=, <=)
+4. Logical Operators( ||, |, &, &&) -> true/false
+5. Bitwise Operators(high level)
+
+IF STATEMENT:
+
+regular if:
+int age = 20;
+if (age == 1500){
+System.out.println("TRUE");
+} else {
+System.out.println("FALSE");
+}
+
+else -> default, gets executed, when if condition is not met
+else if -> is a keyword where we execute one more extra condition
+
+ladder if:
+
+
+nested if:
+int age = 20;
+char gender = 'F';
+
+if (age ==20){
+    if (char == 'M') {
+    System.out.println("Wrong age!");
+    } else if (char == 'F'){
+    System.out.println("You are correct!");
+    } else {
+    System.out.println("Program supports only F or M");
+    }
+} else {
+    System.out.println("Sorry, our program only supports the users of 20 y.o.");
+}

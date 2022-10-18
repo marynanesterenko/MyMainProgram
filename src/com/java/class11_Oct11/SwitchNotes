@@ -1,0 +1,10 @@
+Switch Statement:
+
+1) Working on switch statement - whenever there is a match with the case, it will execute everything after
+that case if we have not specified break after the case;
+
+2) Order of the case or default doesn't matter in switch statement;
+
+3) Not supported Data Types in switch are - boolean, double, float, long and any other object;
+
+4) We can combine the cases in switch statement with writing case statement together;
