@@ -1,4 +1,4 @@
-package com.java.SelfStudy;
+package com.java.ProjectDay5_Sept20;
 
 import java.util.Scanner;
 
