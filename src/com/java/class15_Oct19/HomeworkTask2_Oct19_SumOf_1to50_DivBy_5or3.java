@@ -8,6 +8,7 @@ public class HomeworkTask2_Oct19_SumOf_1to50_DivBy_5or3 {
         int sum = 0;
         for (int i = 1; i <= 50; i++) {
             if (i % 3 == 0 || i % 5 == 0) {
+                System.out.println(i);
                 sum = sum + i;
             }
         }

@@ -2,10 +2,10 @@ package com.java.class15_Oct19;
 
 import java.util.Scanner;
 
-public class HomeworkTask1_Oct19_PrintEachDigitInSeparateLineInReverse {
+public class HomeworkTask4_Oct19_PrintEachDigitInSeparateLineInReverse {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number and I will print each digit separately in reverse: ");
+        System.out.println("Enter the number and I will print each digit separately in reverse: \n");
         int number = sc.nextInt();
 
         while (number !=  0) {
