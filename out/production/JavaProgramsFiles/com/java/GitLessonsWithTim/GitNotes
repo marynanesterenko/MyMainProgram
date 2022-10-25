@@ -1,0 +1,63 @@
+What is important for successful Development work?
+
+- communication & collaboration;
+- plan;
+- distribute duties;
+- same goal;
+
+Git - it is a Version Control System (and since it is a VCS it can track the history of changes to the versions of our code).
+
+Commands used during the lesson:
+
+!Need to make sure in UI we are inside the ProjectFolder! and from there right-click and open with "GitBash Here":
+
+1) ls - l -> this should show the .iml file and the src folder
+2) git init -> to initialize Git here, create the hidden folder ".git" (it will be greyed out)
+3) git status -> to get the red messages
+
+.git folder is the folder, which will be track/watch the Project, that is why we are seeing
+the red messages.
+
+What do we need to do?
+
+4) git add . -> adds the files to watch for Git (all files inside the Project),
+new files will not become automatically trackable
+
+5) git status -> show the status of the tracked files
+
+"Staging area" -> place, where the items start getting tracked by the Git.
+
+6) git commit -m "message" -> only can be done, when there are files in staging area
+OR
+6.1) git config --global user.name "your repository name"
+     git config --global user.email "your email that you have registered on GitHub with"
+
+" -m" stands for message
+
+Stages are:
+
+1. Red lines
+2. Staging area
+3. "Snapshot area" (this is not the formal name, that we will actually use at work)
+
+7) how do we know that we have created a snapshot(aka "committed our code" "- we should see this message:
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+8) git log -> history of commits, should see the yellow lines, the long yellow String is the id of the changes, "hash code"
+HEAD -> this means where we are currently are, "current snapshot", "point of progress"
+
+9) add a method to your code and check the status again, if we see the red
+- then need to run add command again -> status -> commit and make sure to add the message -> git log
+
+10) how do we "roll back" the changes and go back to our previous snapshot? Use command: git log -1 --abbrev-commit
+git creates a shorter version for the "hash code", and we can use that shorter id later
+
+11) git log -2 --abbrev-commit
+
+12) git checkout and then just type that shorter version of the first commit hash id -> and then git log again,
+so you should see your second snapshot removed
+
+!We need snapshots to SAVE our code progress! We need not to forget to commit before checking out,
+otherwise we will lose the work!
