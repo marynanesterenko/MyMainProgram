@@ -1,6 +1,6 @@
-package com.java.CodingBat;
+package com.java.CodingBat.Strings;
 
-public class FrontBack {
+public class FirstAndLastExchanged {
     /*
     Given a string, return a new string where the first and last chars have been exchanged.
      */

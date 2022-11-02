@@ -1,4 +1,4 @@
-package com.java.CodingBat;
+package com.java.CodingBat.Strings;
 
 public class AddFirstTwoToTheFrontAndBack {
 
