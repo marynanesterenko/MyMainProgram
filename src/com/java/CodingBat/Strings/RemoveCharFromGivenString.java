@@ -1,5 +1,7 @@
 package com.java.CodingBat.Strings;
 
+import java.util.Scanner;
+
 public class RemoveCharFromGivenString {
     /*
 
@@ -9,5 +11,17 @@ public class RemoveCharFromGivenString {
      */
     public static void main(String[] args) {
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("PLease enter any sentence: ");
+        String input = sc.nextLine();
+        System.out.println(returnStringWithMissingCharacter(input, 5));
+    }
+
+    public static String returnStringWithMissingCharacter(String str, int n){
+
+        String beforeMissingChar = str.substring(0, n);
+        String afterMissingChar = str.substring(n + 1);
+
+        return beforeMissingChar + afterMissingChar;
     }
 }
