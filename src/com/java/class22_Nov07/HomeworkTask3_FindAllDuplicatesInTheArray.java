@@ -21,7 +21,6 @@ public class HomeworkTask3_FindAllDuplicatesInTheArray {
                 if (nums[i] == nums[j]) {
                     int duplicate = nums[j];
                     System.out.println(duplicate);
-                    break;
                 }
             }
         }
