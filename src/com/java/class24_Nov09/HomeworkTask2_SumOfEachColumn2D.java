@@ -7,7 +7,6 @@ Array:
         {45, 42, 31},
         {73, 14, 0 }
  */
-
 public class HomeworkTask2_SumOfEachColumn2D {
     public static void main(String[] args) {
 
@@ -30,3 +29,4 @@ public class HomeworkTask2_SumOfEachColumn2D {
         }
     }
 }
+

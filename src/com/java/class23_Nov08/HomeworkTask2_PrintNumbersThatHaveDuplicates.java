@@ -6,7 +6,7 @@ Example
 Input : 23, 44, 21, 23, 23, 35, 35, 23, 23, 44, 35
 Output : Duplicate numbers - 23, 44, 35
  */
-public class HomeworkTask1_PrintNumbersThatHaveDuplicates {
+public class HomeworkTask2_PrintNumbersThatHaveDuplicates {
     public static void main(String[] args) {
 
         // declaring and initializing the "nums" array

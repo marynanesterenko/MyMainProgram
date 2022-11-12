@@ -1,31 +1,30 @@
 package com.java.class24_Nov09;
 /*
 
-3. Program to sort the elements of an array in ascending order (Same from the previous homework)
-   Example
-   Input : 5, 2, 8, 7, 3, 6
-   Output : Duplicate numbers - 2, 3, 5, 6, 7, 8
-
+1. Write a program to find all duplicates number from the array.
+(Implement this program to get unique numbers in the output)
+        Example
+        Input : 23, 44, 21, 23, 23, 35, 35, 23, 23, 44, 35
+        Output : Duplicate numbers - 23, 44, 35
  */
+
 public class HomeworkTask1_FindUniqueDuplicates {
     public static void main(String[] args) {
+        int [] nums = {23, 44, 21, 23, 23, 35, 35, 23, 23, 44, 35};
 
-        int [] nums = {5, 2, 8, 7, 3, 6};
+        for (int i = 0; i < nums.length - 1; i++) {
 
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++){
-                if (nums[j] < nums[i]){
-                    int placeholder = nums[i];
-                    nums[i] = nums[j];
-                    nums[j] = placeholder;
+            int countNumOfDuplicates = 0;
+
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] == nums[j]) {
+                    countNumOfDuplicates++;
                 }
             }
-        }
 
-        for (int num : nums){
-            System.out.print(num + " ");
-
+            if (countNumOfDuplicates == 1) {
+                System.out.print(nums[i] + " ");
+            }
         }
     }
-
 }
