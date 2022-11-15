@@ -1,0 +1,14 @@
+Why do we use OOP? What is the need of OOP?
+
+- the reason the OOP concept was created is because the developers wanted to
+eliminate the gap between the IT and the real world;
+(minimize the difference between what we can do in real world and the coding world)
+
+- "C" language is the POP - procedure oriented programming language;
+
+- two fundamental things: Class and Object;
+
+- Object is an instance of the Class:
+    * each Object has their own space
+    * Properties / Attributes / Variables
+    * Behavior / Action / Methods
