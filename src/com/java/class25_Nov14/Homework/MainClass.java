@@ -1,7 +1,11 @@
 package com.java.class25_Nov14.Homework;
 
+import java.util.Scanner;
+
 public class MainClass {
+
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         // first we need to create and initialize an Object of the Class "Device"
         // in other words - we need to create an instance of the Class "Device"
         Device cellPhone = new Device();
@@ -14,10 +18,15 @@ public class MainClass {
         cellPhone.fullName(cellPhone.manufacturer, cellPhone.name, cellPhone.version, cellPhone.model);
 
         // calling the method to calculate the monthly price for us
+
+        cellPhone.displayFullPriceBasedOnStorage(cellPhone.storages);
+
         cellPhone.isContract = true;
-        cellPhone.price = 899;
         cellPhone.currency = '$';
-        cellPhone.calculatePricePerMonth(true, cellPhone.price);
+
+        System.out.println("\nPlease enter the desired storage for your device: ");
+        cellPhone.desiredStorage = sc.nextInt();
+        cellPhone.calculatePricePerMonth(true, cellPhone.desiredStorage );
 
     }
 }
