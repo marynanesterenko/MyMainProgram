@@ -23,24 +23,22 @@ public class Grocery {
 
         Scanner scanner = new Scanner(System.in);
         //TODO WRITE YOUR CODE HERE
+        createList(scanner);
 
     }
 
     public static String[] createList(Scanner scanner) {
         // TODO IMPLEMENT THIS METHOD
-
         System.out.println("How many items do you want to add?");
         int itemNumber = scanner.nextInt();
-
-        String[] items = new String [itemNumber];
-
+        String[] items = new String[itemNumber];
         for (int a = 0; a < items.length; a++) {
-            System.out.println("please enter item #"+ ( a + 1 ));
-            String itemName= scanner.next();
-            items[a]=itemName;
+            System.out.println("please enter item #" + (a + 1));
+            String itemName = scanner.next();
+            items[a] = itemName;
 
         }
-        System.out.println("Shopping list: "+ Arrays.toString(items));
+        System.out.println("Shopping list: " + Arrays.toString(items));
         return items;
     }
 }

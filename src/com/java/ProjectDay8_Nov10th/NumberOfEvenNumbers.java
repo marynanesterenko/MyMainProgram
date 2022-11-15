@@ -23,12 +23,18 @@ import java.util.Scanner;
             int[] numbers = {scanner.nextInt(), scanner.nextInt(), scanner.nextInt(), scanner.nextInt(), scanner.nextInt(), scanner.nextInt()};
 
             //TODO WRITE YOUR CODE HERE
+            System.out.println("Number of even numbers are: " + calculate(numbers));
 
         }
 
         public static int calculate(int[] numbers) {
             //TODO IMPLEMENT METHOD
-            int numOfEven = 0;
-            return -1;
+            int counter =0;
+            for (int num : numbers){
+                if (num % 2 ==0){
+                    counter++;
+                }
+            }
+            return counter;
         }
-}
+    }
