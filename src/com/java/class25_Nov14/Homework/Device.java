@@ -13,7 +13,7 @@ public class Device {
 
     public void fullName(String manufacturer, String name, int version, String model) {
         String fullName = manufacturer + " " + name + " " + version + " " + model;
-        System.out.println("Your selected device is: " + fullName);
+        System.out.println("\nYour selected device is: " + fullName);
     }
 
     public void calculatePricePerMonth(boolean isContract, double price) {
@@ -21,6 +21,6 @@ public class Device {
             pricePerMonth = price / 24;
         }
 
-        System.out.println("Price per month for 2-year contract: " + currency + String.format("%.2f", pricePerMonth));
+        System.out.println("\nPrice per month for 2-year contract: " + currency + String.format("%.2f", pricePerMonth));
     }
 }
