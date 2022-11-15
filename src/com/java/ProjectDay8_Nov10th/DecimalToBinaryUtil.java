@@ -37,11 +37,14 @@ import java.util.Scanner;
 
         public static int[] getBinary(int decimal) {
             //TODO IMPLEMENT THIS METHOD
-            int[] binaryArray = new int[8];
-            int num = 0;
-
-
-            return null;
+            int binary[]= new int [8];
+            int nums =0;
+            for (int i = 128; i > 0; i=i/2){
+                binary[nums] = decimal/i;
+                decimal %=i;
+                nums ++;
+            }
+            return binary;
         }
     }
 

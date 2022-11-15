@@ -19,30 +19,26 @@ public class Task2_LeapYear {
          */
         Scanner sc = new Scanner(System.in);
         int startYear;
-        int endDate;
+        int endYear;
         // TODO WRITE YOUR CODE HERE
         System.out.println("Enter first year: ");
         startYear = sc.nextInt();
 
         System.out.println("Enter second year: ");
-        endDate = sc.nextInt();
-
-        countLeapYearsBetweenYears(startYear, endDate);
-
+        endYear = sc.nextInt();
+        System.out.println("Number of leap years: " + countLeapYearsBetweenYears(startYear, endYear));
     }
 
     public static int countLeapYearsBetweenYears(int startYear, int endYear) {
         // TODO IMPLEMENT METHOD
-        int difference = startYear - endYear;
-        int count = 0;
-        while (difference % 4 == 0){
-            difference ++;
-            if ( difference % 400 == 0 && difference % 4 == 0 || difference % 100 != 0){
-            count++;
-            }
+        int num = 0;
+        for (startYear = startYear; startYear <= endYear; startYear++ )
 
-        }
-            return count;
+            if (startYear % 4 == 0){
+
+                num++;
+            }
+        return num;
     }
 }
 

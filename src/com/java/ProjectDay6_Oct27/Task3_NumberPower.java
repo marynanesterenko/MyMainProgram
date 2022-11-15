@@ -30,7 +30,6 @@ public class Task3_NumberPower {
 
     public static int countPowerOfNums(int base, int power) {
         // TODO IMPLEMENT METHOD
-
         int result = 1;
         for (int i = 1; i <= power; i++ ) {
             result = result * base;

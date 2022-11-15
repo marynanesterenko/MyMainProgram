@@ -19,7 +19,6 @@ public class JoliesRestaurant {
          *      * good - 20%
          *      * perfect - 25%
          *
-         *
          * example output:
          * out: Welcome to Jolie's Restaurant!!!
          * out: Enter number of guests:
@@ -86,7 +85,5 @@ public class JoliesRestaurant {
         System.out.println("Total amount: $" + totalAmount);
         System.out.println("Total per guest: $" + String.format("%.2f", totalAmountPerGuest));
 
-        // ignore this
-        // Validation.testBill(numberOfGuests, billAmount, isSplit, serviceQuality, totalAmount, totalAmountPerGuest);
     }
 }

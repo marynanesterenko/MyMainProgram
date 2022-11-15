@@ -54,7 +54,6 @@ public class ArrayOfNumbers {
         } else {
             result = "NOT PRESENT";
         }
-
         return result;
     }
 }

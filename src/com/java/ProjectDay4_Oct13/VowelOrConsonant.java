@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class VowelOrConsonant {
     public static void main(String[] args) {
-
         /**
          *
          *  Write a Java program that takes a single character from the alphabet and
@@ -31,13 +30,10 @@ public class VowelOrConsonant {
         // converts String to lower case char
         char toChar = enteredString.toLowerCase().charAt(0);
 
-
         String result = "";
         // checks if char is numeric or alphabetic
         if (Character.isAlphabetic(toChar)) {
             // TODO write your code here
-            // System.out.println("Input an alphabet: ");
-
             switch (toChar) {
                 case 'a':
                 case 'o':
@@ -45,11 +41,11 @@ public class VowelOrConsonant {
                 case 'i':
                 case 'e':
 
-                result = "Vowel";
+                result = "vowel";
                 break;
 
                 default:
-                result = "Consonant";
+                result = "consonant";
            }
 
             System.out.println("Input letter is " + result);
@@ -57,9 +53,5 @@ public class VowelOrConsonant {
         } else {
             System.err.println("Please enter single letters only!");
         }
-
-        // ignore this...
-        // Validation.testAlphabet(toChar, result);
-
     }
 }

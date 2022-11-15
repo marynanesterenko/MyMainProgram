@@ -22,8 +22,8 @@ public class Task1_Factorials {
 
     public static void calculateFactorial(long number) {
         // TODO IMPLEMENT METHOD
-        int var = 1;
-        for (int i = 1; i >= number; i++){
+        long var = 1;
+        for (long i = number; i > 0; i--){
             var = var * i;
         }
         System.out.println("Factorial result: " + var);

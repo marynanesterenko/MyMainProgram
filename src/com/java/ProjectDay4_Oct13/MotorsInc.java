@@ -36,8 +36,6 @@ public class MotorsInc {
                 System.out.println("Your vehicle needs to be recalled!");
             } else {
                 System.out.println("Your vehicle is fine, enjoy!");
-                // ignore this ...
-                // Validation.testVehicle(vehicleYear, result);
             }
         }
 }

@@ -15,8 +15,6 @@ public class Coaching {
          * if they agree with the price -> print child is accepted.
          * otherwise child should not have a class and print he/she is not accepted.
          *
-         *
-         *
          * 1)example output - positive:
          * Enter child's name
          * Elsa
@@ -78,9 +76,5 @@ public class Coaching {
                 System.out.println("Your child is not accepted!");
             }
         }
-
-        //ignore this
-        //Validation.testDaycare(age, agreement, childClass);
-
     }
 }

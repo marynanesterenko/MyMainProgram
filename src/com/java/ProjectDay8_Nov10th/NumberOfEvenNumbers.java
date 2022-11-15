@@ -19,7 +19,7 @@ import java.util.Scanner;
              */
 
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Enter numbers:");
+            System.out.println("Enter six numbers:");
             int[] numbers = {scanner.nextInt(), scanner.nextInt(), scanner.nextInt(), scanner.nextInt(), scanner.nextInt(), scanner.nextInt()};
 
             //TODO WRITE YOUR CODE HERE
