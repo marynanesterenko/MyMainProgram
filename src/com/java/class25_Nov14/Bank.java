@@ -1,4 +1,5 @@
 package com.java.class25_Nov14;
+// this Class is the design
 
 public class Bank {
     String accName;
