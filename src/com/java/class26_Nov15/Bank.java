@@ -5,8 +5,8 @@ public class Bank {
     String accName;
     String accNumber;
 /*
-- in this Class, we cannot create Constructors with the same Name, same parameter names and their types
-- Constructors can have the same Name, BUT that have to have different parameter names and their types
+- in this Class, we cannot create Constructors with the same Name, same parameter names and parameter types;
+- Constructors can have the same Name, BUT they have to have different parameter names and parameter types;
 - so, this means that we can only have one blank Constructor
 - also, Constructor doesn't have a return type!
 - purpose of the Constructor is to initialize the Class variables
@@ -14,7 +14,7 @@ public class Bank {
 - there are differences between the method and the Class: return type(Class doesn't have it)
 - method Name doesn't have to be the same as the Class name, in which we are creating it
 - Constructor types: parameterized Constructor, "no-argument" Constructor and default
-  (these two are created "explicitly" by the User
+  (these two are created "explicitly" by the User)
 - "Default" constructor is invisible, it gets created at compile time by Java,
   and this ONLY happens when we do not have a need for the Constructor inside our Class
  */

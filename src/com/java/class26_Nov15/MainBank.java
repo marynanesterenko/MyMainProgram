@@ -1,7 +1,7 @@
 package com.java.class26_Nov15;
 /*
-Real life reference:
-- nn the memory we have lots of Objects without any data
+"real life reference":
+- in the memory we have lots of Objects without any data
 - we do not allow the User to create the "blank" Object
  */
 public class MainBank {

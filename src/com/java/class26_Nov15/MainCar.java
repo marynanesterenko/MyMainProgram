@@ -3,7 +3,7 @@ package com.java.class26_Nov15;
 The method will return the default values,
 if the property of the class our Object is referencing have not been initialized
  */
-public class MainClass {
+public class MainCar {
     public static void main(String[] args) {
         Car bmw = new Car();
         Car audi = new Car();

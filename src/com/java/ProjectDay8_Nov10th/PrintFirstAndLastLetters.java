@@ -2,7 +2,7 @@ package com.java.ProjectDay8_Nov10th;
 
 import java.util.Scanner;
 
-public class PrintFirstAndLast {
+public class PrintFirstAndLastLetters {
     public class NumberOfEvenNumbers {
         public static void main(String[] args) {
             /**
