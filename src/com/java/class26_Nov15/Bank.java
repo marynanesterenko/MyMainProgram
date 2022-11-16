@@ -9,10 +9,14 @@ public class Bank {
 - Constructors can have the same Name, BUT that have to have different parameter names and their types
 - so, this means that we can only have one blank Constructor
 - also, Constructor doesn't have a return type!
-- purpose of the Constructor is to initialize the Class variables(aka default variables of the Object when we first create the Object)
+- purpose of the Constructor is to initialize the Class variables
+  (aka default variables of the Object when we first create the Object)
 - there are differences between the method and the Class: return type(Class doesn't have it)
 - method Name doesn't have to be the same as the Class name, in which we are creating it
--
+- Constructor types: parameterized Constructor, "no-argument" Constructor and default
+  (these two are created "explicitly" by the User
+- "Default" constructor is invisible, it gets created at compile time by Java,
+  and this ONLY happens when we do not have a need for the Constructor inside our Class
  */
 
     // even though this Constructor has the same name as the blank Constructor below,
@@ -20,7 +24,7 @@ public class Bank {
     Bank(String accNameFromUser, int balFromUser){
         accName = accNameFromUser;
         balance = balFromUser;
-        accNumber = accName + balance;
+        accNumber = accName + "_" + balance; // this is like the formula for generating the accNumber when the User creates it
     }
 
     // blank Constructor
