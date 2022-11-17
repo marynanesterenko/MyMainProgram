@@ -1,5 +1,8 @@
 package com.java.ProjectDay8_Nov10th;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class VerifyArrays {
     public static void main(String[] args) {
         /**
@@ -22,11 +25,21 @@ public class VerifyArrays {
          */
 
         //TODO WRITE YOUR CODE HERE
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your first array of 3 strings: ");
+        String [] firstArray = {sc.nextLine(), sc.nextLine(), sc.nextLine()};
+        System.out.println("Enter your first array of 3 strings: ");
+        String [] secondArray = {sc.nextLine(), sc.nextLine(), sc.nextLine()};
 
     }
 
     public static boolean areEqual(String[] arr1, String[] arr2) {
         //TODO IMPLEMENT THIS METHOD
-        return false;
+        if (Arrays.equals(arr1, arr2)) {
+
+            return true;
+        } else {
+            return false;
+        }
     }
 }
