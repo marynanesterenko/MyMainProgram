@@ -1,4 +1,4 @@
-package com.java.class25_Nov14.Homework;
+package com.java.OOP.Homework;
 
 public class Device {
 
@@ -47,4 +47,25 @@ public class Device {
 
         System.out.println("\nPrice per month for 2-year contract: " + currency + String.format("%.2f", pricePerMonth));
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
