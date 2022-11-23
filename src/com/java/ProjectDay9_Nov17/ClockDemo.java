@@ -35,8 +35,26 @@ public class ClockDemo {
          */
 
         //TODO execute your program here...
-        Clock firstClock = new Clock();
-        firstClock.tick();
+        Clock clock1 = new Clock(5201);
 
+        clock1.tickDown();
+        System.out.println(clock1);
+
+        clock1.tick();
+        System.out.println(clock1);
+
+        Clock clock2 = new Clock(3,2,1);
+
+        Clock clock3 = new Clock(1,57,59);
+
+        clock2.addClock(clock3);
+        System.out.println(clock2);
+
+        Clock clock4 = new Clock(3,2,1);
+
+        Clock clock5 = new Clock(1,57,59);
+
+        clock4.subtractClock(clock5);
+        System.out.println(clock4);
     }
 }
