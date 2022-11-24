@@ -1,0 +1,22 @@
+1. Polymorphism - it is a capability of an Object to behave differently in different situation.
+2. " + " operator can behave differently, when we work with different data types
+
+3. How can we achieve polymorphism in Java:
+   1) Method Overloading - capability of Java to have more than one method in the same class having the same name,
+     but different parameters;
+     - if we are declaring additional method with teh same name, BUT we are not changing the number of parameters
+       OR we are not changing their type - then this is not "method overloading";
+   2) Method Overriding - it is a mechanism when child class will override(rewrite) parent class method, having same name,
+   same parameters, but child class can change the implementation;
+
+NOTE: method parameters are called method signature
+
+QUESTION: -> if method takes two parameters and we have 9 data types, how many overloaded methods we can create? 81
+
+   Example:
+   * void sum (int a, int b) AND void sum (int c, int d) -> not considered method overloading;
+   2) void sum (boolean a, int b) AND void sum (boolean c, int d) -> not considered method overloading;
+   3) void sum(int a, char b, int c), void sum(int a, int b, char c) -> overloaded;
+
+    3) Dynamic polymorphism / runtime polymorphism
+
