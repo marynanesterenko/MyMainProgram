@@ -8,7 +8,7 @@ Write a program to find the length of the String without using the .length() met
 
 import java.util.Scanner;
 
-public class FindTheLengthOfStringStackOvFlow {
+public class FindTheLengthOfStringStackOverFlow {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter your full name: ");

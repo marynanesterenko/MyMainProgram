@@ -16,7 +16,7 @@ public class Bank {
 - Constructor types: parameterized Constructor, "no-argument" Constructor and default
   (these two are created "explicitly" by the User)
 - "Default" constructor is invisible, it gets created at compile time by Java,
-  and this ONLY happens when we do not have a need for the Constructor inside our Class
+  and this ONLY happens when we do not have any other Constructor inside our Class
  */
 
     // even though this Constructor has the same name as the blank Constructor below,

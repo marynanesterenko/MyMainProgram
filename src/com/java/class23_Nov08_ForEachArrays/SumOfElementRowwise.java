@@ -1,4 +1,4 @@
-package com.java.class23_Nov08;
+package com.java.class23_Nov08_ForEachArrays;
 // Write the program to print the sum of each row
 
 public class SumOfElementRowwise {

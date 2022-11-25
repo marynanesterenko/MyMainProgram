@@ -12,7 +12,7 @@ class Chrome extends Browser{
     }
 }
 
-class Mozilla extends Browser{
+class FireFox extends Browser{
     void openIncognitoWindow(){
         System.out.println("Ctrl + Shift + P");
     }

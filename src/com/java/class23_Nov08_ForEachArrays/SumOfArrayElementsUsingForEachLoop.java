@@ -1,4 +1,4 @@
-package com.java.class23_Nov08;
+package com.java.class23_Nov08_ForEachArrays;
 
 public class SumOfArrayElementsUsingForEachLoop {
     public static void main(String[] args) {

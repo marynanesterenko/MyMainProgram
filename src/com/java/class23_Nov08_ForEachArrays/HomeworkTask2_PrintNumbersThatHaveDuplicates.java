@@ -1,5 +1,5 @@
-package com.java.class23_Nov08;
-import java.util.Arrays;
+package com.java.class23_Nov08_ForEachArrays;
+
 /*
 2. Write a program to find all duplicates number from the array (Implement this program to get unique numbers in the output)
 Example

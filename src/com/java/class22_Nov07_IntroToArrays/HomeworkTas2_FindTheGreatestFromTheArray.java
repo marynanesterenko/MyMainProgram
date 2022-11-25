@@ -1,4 +1,4 @@
-package com.java.class22_Nov07;
+package com.java.class22_Nov07_IntroToArrays;
 /*
   2. Write a program to find the greatest number from an array
 Example

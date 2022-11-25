@@ -1,4 +1,4 @@
-package com.java.class23_Nov08;
+package com.java.class23_Nov08_ForEachArrays;
 import java.util.Arrays;
 /*
 3. Program to sort the elements of an array in ascending order (Tricky, do enough brainstorming before solving)

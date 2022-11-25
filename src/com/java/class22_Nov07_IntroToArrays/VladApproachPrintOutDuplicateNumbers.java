@@ -1,4 +1,4 @@
-package com.java.class22_Nov07;
+package com.java.class22_Nov07_IntroToArrays;
 
 public class VladApproachPrintOutDuplicateNumbers {
     public static void main(String[] args) {

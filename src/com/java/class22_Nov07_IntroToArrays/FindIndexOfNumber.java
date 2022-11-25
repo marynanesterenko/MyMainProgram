@@ -1,4 +1,4 @@
-package com.java.class22_Nov07;
+package com.java.class22_Nov07_IntroToArrays;
 
 /*
 Find the index of the number in the array

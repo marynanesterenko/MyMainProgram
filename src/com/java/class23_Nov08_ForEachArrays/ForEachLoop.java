@@ -1,4 +1,4 @@
-package com.java.class23_Nov08;
+package com.java.class23_Nov08_ForEachArrays;
 
 public class ForEachLoop { // it is also called an enhanced for loop
     public static void main(String[] args) {

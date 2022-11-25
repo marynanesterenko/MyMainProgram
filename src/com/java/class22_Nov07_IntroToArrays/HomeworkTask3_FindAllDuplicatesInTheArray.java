@@ -1,4 +1,4 @@
-package com.java.class22_Nov07;
+package com.java.class22_Nov07_IntroToArrays;
 /*
   3. Write a program to find all duplicates number from the array (Tricky, do enough brainstorming before solving)
 Example

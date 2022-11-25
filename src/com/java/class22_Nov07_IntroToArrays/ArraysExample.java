@@ -1,4 +1,4 @@
-package com.java.class22_Nov07;
+package com.java.class22_Nov07_IntroToArrays;
 /*
 Arrays - container to hold more than one value of the SAME data type.
  */

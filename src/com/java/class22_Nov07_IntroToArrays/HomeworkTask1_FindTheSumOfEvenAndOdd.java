@@ -1,4 +1,4 @@
-package com.java.class22_Nov07;
+package com.java.class22_Nov07_IntroToArrays;
 /*
   1. Write a program to find the sum of even and odd numbers
 Example
