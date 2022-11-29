@@ -1,7 +1,7 @@
 package com.java.class25_Nov14_IntroToOOP;
 // this Class is the "design", or we can say a blueprint
 // based on the design of this Class - we will create an Object in the "MainClass"
-
+// Java is not a fully OOP language, because it still has the primitive Data Types(variables)
 public class Bank {
     // instance variables
     String accName;

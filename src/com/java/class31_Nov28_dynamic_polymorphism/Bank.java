@@ -1,9 +1,6 @@
 package com.java.class31_Nov28_dynamic_polymorphism;
-
+// Banks
 public class Bank {
-}
-
-class ChaseBank {
     int balance;
     public void checkBalance(){
         System.out.println(balance);
@@ -19,34 +16,20 @@ class ChaseBank {
     }
 }
 
-class BankOfAmerica {
-    int balance;
-    public void checkBalance(){
-        System.out.println(balance);
+class ChaseBank extends Bank{
+    public void displayRateOfInterest(){
+        System.out.println("3.0");
     }
+}
 
-    public void withdraw (int amount){
-        balance = balance - amount;
-        System.out.println("Available balance - " + balance);
-    }
-
+class BankOfAmerica extends Bank {
     public void displayRateOfInterest(){
         System.out.println("3.0");
     }
 
 }
 
-class WellsFargo {
-    int balance;
-    public void checkBalance(){
-        System.out.println(balance);
-    }
-
-    public void withdraw (int amount){
-        balance = balance - amount;
-        System.out.println("Available balance - " + balance);
-    }
-
+class WellsFargo extends Bank {
     public void displayRateOfInterest(){
         System.out.println("3.0");
     }
