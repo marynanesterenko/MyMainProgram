@@ -19,4 +19,5 @@ QUESTION: -> if method takes two parameters and we have 9 data types, how many o
    3) void sum(int a, char b, int c), void sum(int a, int b, char c) -> overloaded;
 
     3) Dynamic polymorphism / runtime polymorphism
+    Object of Child Class into the reference of parent class
 
