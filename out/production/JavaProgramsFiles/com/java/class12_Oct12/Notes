@@ -1,8 +1,0 @@
-Components of the Method:
-
-1) Name of the Method; -> mandatory
-2) Argument / Parameter, that the method will take; -> optional
-3) Method Return Type; -> mandatory
-4) Method Body; -> optional
-
-Methods are independent.
