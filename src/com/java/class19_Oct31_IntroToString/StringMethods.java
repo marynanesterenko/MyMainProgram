@@ -36,6 +36,7 @@ public class StringMethods {
         String str5 = " ";
         System.out.println(str5.isEmpty());
 
+
         // 9. Trim - trimming off the space
         String str6 = "   Hello   ";
         System.out.println(str6.trim());
@@ -60,6 +61,7 @@ public class StringMethods {
         String title2 = "Hello User, Welcome to Ebay";
         String words[] = title2.split(" ");
         System.out.println(words.length);
+
     }
 }
 

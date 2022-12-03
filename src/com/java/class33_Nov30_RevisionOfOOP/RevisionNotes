@@ -1,0 +1,45 @@
+What are we going to cover in Abstraction?
+
+1. Abstract Class
+2. Interface
+3. final keyword
+
+OOPs Topics (Most important for interview question/discussion)
+
+Basics of OOPs
+     class
+     objects
+     Constructor
+     Static keyword
+     Types of Variables
+
+ Pillars of OOPs:
+ 1) INHERITANCE
+       extends keyword
+       this & super keyword
+       Constructor Chaining
+
+ * 2) POLYMORPHISM -> Interview
+      Method Overloading
+      Method Overriding
+      Dynamic Polymorphism
+
+ 3) ENCAPSULATION -> Interview
+      Access Modifiers
+      Getters and Setters
+      Wrapper Class
+      Final Keyword
+
+ * 4) ABSTRACTION
+      Abstract class
+      Interface
+
+   * Exception Handling
+   * Collection framework
+
+      Core Java:
+      1) If else switch
+      2) Looping
+      3) Methods
+      4) Arrays
+      5) String

@@ -1,0 +1,110 @@
+REMEMBER FOR THE INTERVIEW:
+- Interviewer: what types of testing you perform?
+
+Here we need to make sure we don't get lost and start giving them an entire list of things.. We might think that we will look
+smart by knowing all the types of testing, BUT it doesn't necessarily looks professional from the interviewers perspective..
+SO the first thing we should answer is:
+
+- Me: I perform functional testing.
+
+And here we assume that if the interviewer knows what they are doing and what they are asking, they will know that,
+when we say "functional", we actually mean: smoke, sanity, regression, ad-hoc. And if they decide, I think they might ask:
+
+- Interviewer: can you give more details on what kind of functional testing?
+- Me: every morning I start with running the smoke test, I often run sanity tests, to make sure that the changes that the Devs did
+      to the code in one place, did not break anything in the other place, also every Sprint, at the end of it -
+      before the release of the new build - I perform regression testing.
+
+CONTINUING with theoretical notes:
+Types of testing:
+
+Type 1 (based on the automation level):
+- manual;
+- semi-manual;
+- automation;
+
+Type 2 (based on the "object" of testing):
+- functional (performed by Manual Testers and SDETs);
+
+- GUI (Graphic User Interface);
+
+- security (usually performed by a different testers, not SDETs, it can be another team as well,
+            in my company we use iLab -> https://www.ilabquality.com/ -> you can Google.
+            There is also an advanced form of security testing, which is called penetration testing, the difference is:
+            we not only identify the vulnerabilities, we also understand how each of those vulnerabilities could affect our business).
+
+- non-functional (usability testing, localization testing (if the Web App has to be available in different languages, countries, etc),
+                  stress testing, documentary, integration with the Browsers);
+
+Type 3 (based on the changes done to the code):
+- smoke testing (testing the most basic and critical features - every morning, 20 minutes);
+- regression testing (stable test before release, to make sure that the Devs did not break the code by the changes
+                      we test the entire build before release );
+- sanity testing (partial testing of functionality);
+
+Type 4 (based on the 4 methods of testing):
+- black box testing (tester not able to see a developers code);
+- while box testing (testers see the Devs code, this ability needed to be able to do the Unit Testing)
+- grey box;
+
+Type 5 (based on participants):
+- alpha (devs and testers)
+- beta (stakeholders and independent customers - this is NOT the same as UAT)
+
+Type 6 (based on the behavior):
+- positive;
+- negative;
+
+Type 7 (based on levels of testing):
+- module (component);
+- integration;
+- system testing;
+- acceptance (UAT);
+
+Example of test:
+"LOGIN TEST" can be all of the following:
+1. Can be automated
+2. It is a functional test
+3. It is included in smoke suite
+4. It is a part of black box testing ( black box we do not see the code)
+5. It is a part of alpha testing
+6. It is a positive test as well ("happy path)"
+7. Can be part of integration
+
+INTERVIEW Q&A: as an SDET, I perform functional testing. Not a lot of practice with the white box.
+               How do you set up test data? - I use Data Types (here don't start looping through all the Data Types we know).
+               Remember from Chirag: in our Framework we DO NOT use the primitive Data Types for our Test Data!!!
+
+Best 5 artifacts for creating a test:
+1. Test Case should be an independent (no dependency).
+2. Straightforward
+   (User logs in with credentials(which is our test data): login "test@gmail.com", password: 12345@@).
+3. Test Case should be full of information.
+4. Personalization (User, Admin, Super User, Coach -> this Users/Roles will be defined in PRD, based on who will be Using our Application).
+   EXAMPLE: at my company we work on the internal Web Application, which will be used by Azenta (www.azenta.com) employees at our
+            biorepository locations all over the world (https://www.azenta.com/global-locations). On each site we have the following
+            roles: Inbound Samples Receiving Tech, Samples Registration Tech, Manifesting User, Operations Tech, Lab User, Lab Manager,
+            Logistics Manager and others. All these Roles were described in PRD. Each of these User have different access permissions
+            in our system, and those permissions need to be tested, so make sure that, for example, the Lab User
+            doesn't have the ability to approve their own work, and that the approval of the completed Task, can only be done by the Lab Manager.
+5. When writing Test Cases, stick to the KISS method (Keep It Stupid Simple)
+6. Test Case has the Status, ID, Suite ID
+
+For automation you have to have dynamic data!! (Is this why we have learnt Dynamic Polymorphism?.. I am not sure here, need to ask)
+
+TEST EXAMPLE:
+1. PRE-CONDITION (@Before)
+(i.e. User should be registered - it is just a pre-condition, in this particular test we do not test this)
+
+2. ACT (seems like this is what we have in @Test, right?..)
+  a) User login to Account
+  b) User bought a book
+  c) User log out from the Account
+
+3. ASSERT (this is the part of @Test as well, right?.. Assert.assertEquals(message, expectedResult, actualResult)?)
+   a) User logged on to the account -> User is able to see the Home Page, and their "Account icon"
+   b) User bought a book            -> User able to see the book in the cart
+                                    -> User is able to see a payment
+   c) User logged out from Account  ->
+
+4. POST-CONDITION(@After)

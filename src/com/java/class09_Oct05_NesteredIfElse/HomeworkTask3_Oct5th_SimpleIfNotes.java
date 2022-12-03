@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class HomeworkTask3_Oct5th_SimpleIfNotes {
     /*
-    Task #3: Write a Program To Count Total Number Of Minimum Notes In Given Amount (Notes are of 1, 2, 5, 10, 20, 100 & 500)
+    Task #3: Write a Program To Count Total Number Of Minimum NotesTypesOfTesting In Given Amount (NotesTypesOfTesting are of 1, 2, 5, 10, 20, 100 & 500)
     Example
     Input  : Amount = 255
-    Output :     2 Notes of 100
-		         2 Notes of 20
+    Output :     2 NotesTypesOfTesting of 100
+		         2 NotesTypesOfTesting of 20
 		         1 Note of 10
                  1 Note of 5
      */

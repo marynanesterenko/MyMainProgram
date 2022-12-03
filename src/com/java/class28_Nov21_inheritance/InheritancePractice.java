@@ -33,9 +33,4 @@ Important things about inheritance:
 9. The overridden method cannot reduce the visibility of the method it overrides
 10.When we create an instance of the subclass, java automatically calls the default constructor of the base class,
    before it executes the subclass constructor
-
-
-
-
-
  */
