@@ -1,5 +1,24 @@
 Understanding Exceptions:
 
+From Chirag:
+Error characteristics:
+- it has nothing to do with an actual code;
+- examples of the error: machine failure, hard disk crashed;
+- error cannot be handled programmatically;
+
+Exception characteristics:
+- clearing the cache - whenever we enter the data that the Scanner is asking about, that will be stored in the Buffer
+- "critical statement" in the code - the one that is the most prone to throw an Exception.
+- "fall back" mechanism - if something is not working - we have a "Plan B"
+- "Exception" is the Class that can handle all the exceptions
+- "finally" block will get executed, finally keyword is not used in the Automation
+- compile time exception - checked exception
+- the use of try catch block is to handle an exception
+- finally - to execute no matter what
+- throws keyword (if we want to use our own "custom" exception)
+- propagation of exception
+
+My notes:
 What is an "Exception"?
 
     - an Exception is an Object that is created when an error occurs in Java program
@@ -55,3 +74,5 @@ rebooted in order to resume work. These errors are also knows as a "User-mode fa
 
     - there are the "try" block and the "catch" block
 
+
+Throwable Class - is the root of the exception hierarchy.
