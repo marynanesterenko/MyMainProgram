@@ -1,0 +1,77 @@
+Understanding Exceptions:
+
+From Chirag:
+Error characteristics:
+- it has nothing to do with an actual code;
+- examples of the error: machine failure, hard disk crashed;
+- error cannot be handled programmatically;
+
+Exception characteristics:
+- clearing the cache - whenever we enter the data that the Scanner is asking about, that will be stored in the Buffer
+- "critical statement" in the code - the one that is the most prone to throw an Exception.
+- "fall back" mechanism - if something is not working - we have a "Plan B"
+- "Exception" is the Class that can handle all the exceptions
+- "finally" block will get executed, finally keyword is not used in the Automation
+- compile time exception - checked exception
+- the use of try catch block is to handle an exception
+- finally - to execute no matter what
+- throws keyword (if we want to use our own "custom" exception)
+- propagation of exception
+
+My notes:
+What is an "Exception"?
+
+    - an Exception is an Object that is created when an error occurs in Java program
+    and Java cannot automatically fix the error;
+
+    - the Exception Object contains information about the type of error that has occurred;
+
+    - the most important piece of information that the Exception Object contains is the cause of the error,
+    and the cause of the error, which is indicated by the name of the Exception Class, used to create the exception;
+
+    - so from here, we can make a conclusion, that each type of exception that can occur is represented by a different
+    Exception Class;
+
+    - common language to use is: Java have thrown an exception;
+
+    - usually, what "catches"(another common language to use) the exception is the statement, which called the method,
+    that is currently being executed;
+
+    - in the event, where it happens that the exception is not caught - the program just abruptly ends and displays the
+    message in the console, in which it tells us what methods, for example, the program passed before it was aborted (the
+    first method is usually one of the JavaAPI methods and the last one is our "main" method;
+
+    - whenever we use a statement in our code, that can throw an exception, we should write the code to anticipate and
+    catch the exception;
+
+    - there are two basic types of exceptions in Java: "checked exceptions" and "unchecked exceptions";
+
+Checked Exceptions - it is an exception that our compiler requires us to provide for it, otherwise - it won't compile
+our program.
+
+Unchecked Exception - it is an exception that we are not required to provide for our program.
+
+    - the term for the text in the console that displays the Exception details is called the stack trace
+
+There are some common, or we can say, typical exceptions that we can come across in our day-to-day coding life:
+
+1. IllegalArgumentException: this means that we have passed an incorrect argument to a method.
+
+2. InputMismatchException: this means that the input data type doesn't match the data type, which is expected by a method
+   of the Scanner Class.
+
+3. ArithmeticException: this means that we have tried an illegal type of an arithmetic operation, such as dividing
+   integer by a zero.
+
+4. IOException: (FYI: IO stands for "Input"/"Output") this means that the method, which performs I/O, encountered an
+   unrecoverable I/O error.
+
+Unrecoverable error - it is an error that occurs during the execution of code or a program, that has not been registered
+before and no retries can correct or undo an error. Usually these errors freeze the system and the computer must be
+rebooted in order to resume work. These errors are also knows as a "User-mode fault" or "User-mode exception".
+
+5. ClassNotFoundException: a necessary class couldn't be found.
+
+    - there are the "try" block and the "catch" block
+
+Throwable Class - is the root of the exception hierarchy.

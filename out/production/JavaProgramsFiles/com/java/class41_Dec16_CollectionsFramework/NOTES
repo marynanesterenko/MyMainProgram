@@ -1,0 +1,30 @@
+What is Collections?
+
+Collections - it is a list of things.
+Collections is the Framework - therefore we cannot use the primitive Data Types,
+                               when working with Collections.
+SDETs -> ArrayList
+DEVs -> LinkedList
+
+
+DATA STRUCTURE GROUPS:
+Linear:
+static:
+- Array
+
+dynamic:
+- Linked List
+  *
+- Stack
+- Queue
+
+Non-linear:
+- Trees (Binary Tree, Binary Search Tree, AVL, Red-Black Tree)
+- Graphs
+- Tables
+- HashSet
+- HashMap
+
+** the parameter of constructor is the value of the instance variable
+
+

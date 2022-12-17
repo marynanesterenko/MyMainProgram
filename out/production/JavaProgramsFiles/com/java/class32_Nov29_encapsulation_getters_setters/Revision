@@ -1,0 +1,12 @@
+1. Java - programming language
+2. Selenium - java library, collection of methods
+3. Cucumber / TestNG / jUnit - test management tool
+4. Maven - download libraries
+5. Git - centralized repository
+6. Postman - API testing
+7. REST Assured - Automation of API Testing (collection of methods to automate the API testing)
+8. JDBC - Database Automation
+9. SQL - Database Testing
+10 Jenkins - CI / CD
+
+End-to-end testing - we are testing the UI and the DataBase
