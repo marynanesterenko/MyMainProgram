@@ -74,5 +74,4 @@ rebooted in order to resume work. These errors are also knows as a "User-mode fa
 
     - there are the "try" block and the "catch" block
 
-
 Throwable Class - is the root of the exception hierarchy.

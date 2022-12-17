@@ -1,0 +1,45 @@
+What is Collections? - java Collections are like containers that group multiple items into one unit.
+
+Collections - it is a list of things.
+Collections is the Framework - therefore we cannot use the primitive Data Types,
+                               when working with Collections.
+SDETs -> ArrayList
+DEVs -> LinkedList
+
+ArrayList and HashMap are commonly used in Selenium Automation tests.
+
+What is the LinkedList?
+A linked list is a Collection of Objects linked together by references from an Object to another Object.
+So the basic LinkedList, or commonly called "singly linked List" consists of nodes,
+where each node contains one or more data fields AND a reference to the next node.
+
+It’s a linear Data Structure or a sequence of data Objects, where elements are not stored in neighboring memory locations.
+The elements are linked using pointers to form a chain. Each element is a separate Object, called a node.
+Each node has two items: a data field and a reference to the next node. The entry point in a linked list is called the head.
+Where the list is empty, the head is a null reference and the last node has a reference to null.
+
+A linked list is a dynamic data structure, where the number of nodes is not fixed, and the list has the ability to grow and shrink on demand.
+
+
+
+DATA STRUCTURE GROUPS:
+Linear:
+static:
+- Array
+
+dynamic:
+- LinkedList
+- Stack
+- Queue
+
+Non-linear:
+- Trees (Binary Tree, Binary Search Tree, AVL, Red-Black Tree)
+- Graphs
+- Tables
+- HashSet
+- HashMap
+- Heap
+
+** the parameter of Constructor is the value of the instance variable
+
+
