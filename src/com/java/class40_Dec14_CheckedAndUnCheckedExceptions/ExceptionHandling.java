@@ -1,6 +1,4 @@
-package com.java.class40_Dec14;
-
-import java.io.FileNotFoundException;
+package com.java.class40_Dec14_CheckedAndUnCheckedExceptions;
 
 public class ExceptionHandling  {
     public static void main(String[] args) {

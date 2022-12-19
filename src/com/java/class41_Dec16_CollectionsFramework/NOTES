@@ -1,6 +1,8 @@
+// NEXT CLASS: SET and MAP
+
 What is Collections? - java Collections are like containers that group multiple items into one unit.
 
-Collections - it is a list of things.
+Collection - it is a list of things.
 Collections is the Framework - therefore we cannot use the primitive Data Types,
                                when working with Collections.
 SDETs -> ArrayList
@@ -19,8 +21,6 @@ Each node has two items: a data field and a reference to the next node. The entr
 Where the list is empty, the head is a null reference and the last node has a reference to null.
 
 A linked list is a dynamic data structure, where the number of nodes is not fixed, and the list has the ability to grow and shrink on demand.
-
-
 
 DATA STRUCTURE GROUPS:
 Linear:

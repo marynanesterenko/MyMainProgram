@@ -1,4 +1,4 @@
-package com.java.class40_Dec14;
+package com.java.class40_Dec14_CheckedAndUnCheckedExceptions;
 
 import java.io.IOException;
 import java.util.Scanner;

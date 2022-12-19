@@ -1,8 +1,9 @@
 package com.java.class41_Dec16_CollectionsFramework;
-
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+How to sort an ArrayList?
+ */
 public class SortList {
     public static void main(String[] args) {
 
@@ -15,18 +16,24 @@ public class SortList {
 
         int min = listOfData.get(0);
         int minIndex = 0;
+
         for (int i = 0; i < listOfData.size(); i++){
-            for(int j = 0; i < listOfData.size(); j++){
-                min = listOfData.get(j);
+            min = listOfData.get(i);
+
+            // finding the minimum element
+            for(int j = i; j < listOfData.size(); j++){
                 if(listOfData.get(j) < min){
                     min = listOfData.get(j);
                     minIndex = j;
                 }
             }
+
+            // swapping (this is still within the outer "for loop"
             int temp = listOfData.get(i);
             listOfData.set(i, min);
             listOfData.set(minIndex, temp);
-
         }
+
+        System.out.println(listOfData);
     }
 }

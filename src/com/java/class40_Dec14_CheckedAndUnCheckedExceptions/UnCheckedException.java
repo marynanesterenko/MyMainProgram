@@ -1,8 +1,8 @@
-package com.java.class40_Dec14;
+package com.java.class40_Dec14_CheckedAndUnCheckedExceptions;
 
 import java.util.Scanner;
 
-public class CompileTimeAndRunTime {
+public class UnCheckedException {
     public static void main(String[] args) {
         openBrowser();
     }

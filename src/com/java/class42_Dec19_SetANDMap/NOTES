@@ -1,0 +1,10 @@
+SET
+
+1. What is SET?
+   -> SET is an unsorted Collection of Objects(mutable and unmutable), in which duplicate values cannot be stored;
+   -> SET is an Interface, which is present in the java.util package and extends the Collection Interface;
+   -> SET cannot contain itself an an element;
+   -> when creating a SET, we can prohibit, or restrict, the Set to contain specified by us types of elements (i.e. null);
+   -> if that restriction is violated - we get an unchecked exception, typically NullPointerException or ClassCastException;
+
+2. How to declare a SET? -> public interface Set extends Collection
