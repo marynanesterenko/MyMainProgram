@@ -1,10 +1,65 @@
+!! We cannot create an Object of an Interface, and therefore we need a Class, which implements the Interface,
+   so that we can create an Object.
+
+!! Collections in Java are capable of doing any data operations such as searching, sorting, insertion, manipulation, and deletion.
+
 SET
 
 1. What is SET?
    -> SET is an unsorted Collection of Objects(mutable and unmutable), in which duplicate values cannot be stored;
+   -> the fact that Set cannot store duplicate values is the main difference between the Set and List;
    -> SET is an Interface, which is present in the java.util package and extends the Collection Interface;
    -> SET cannot contain itself an an element;
    -> when creating a SET, we can prohibit, or restrict, the Set to contain specified by us types of elements (i.e. null);
    -> if that restriction is violated - we get an unchecked exception, typically NullPointerException or ClassCastException;
 
 2. How to declare a SET? -> public interface Set extends Collection
+
+3. What Class implement the Set Interface, so that we can create an Object of Set Type?
+   -> HashSet
+
+4. How HashSet works internally?
+   -> when we pass the duplicate element in the add() method of the Set object, it will return false and wont add anything;
+   -> the uniqueness in set is achieved internally in java, using HasMap.
+
+5. We can retrieve the data from the Set, using for loop.
+
+6. We do not have the methods in the Set, where we have to pass index
+
+MAP
+
+1. What is Map?
+   -> MAP is an unordered Collection of key-value pairs, in which duplicate keys cannot be stored;
+   -> MAP is an Interface, which is present in the java.util package and is not a subtype of the Collections Interface;
+   -> MAP behaves differently from all other Collection types;
+   -> MAP represents a mapping between a key and value;
+   -> it is possible to restrict the type of Object that can be stored in a Map;
+   ->
+
+2. How to declare a MAP? -> Map hm = new HashMap();
+
+3. What Class implement the Map Interface, so that we can create an Object of Map Type?
+   -> HashMap (unordered, allows null keys and values)
+   -> LinkedHashMap (predictable order)
+   -> TreeMap (predictable order)
+
+Why HashMap is needed?
+- it uses key-value pairs, which are fundamentals for organizing data;
+- key-value pairs are also used in JSON, XML, HTML< Map Reduce, Associative Arrays, Databases, Cashes, etc.
+
+GENERAL:
+
+1. What is Hashing technique?
+-> hashing is a technique of converting a large String to a small String that represents the same String,
+   shorter value helps in indexing and faster searches;
+
+HIERARCHY:
+
+Iterable -> Collection:
+-> List:
+   -> ArrayList
+   -> LinkedList
+-> Queue
+-> Set:
+   -> HashSet
+   -> LinkedHashSet

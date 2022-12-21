@@ -1,14 +1,31 @@
 // NEXT CLASS: SET and MAP
 
-What is Collections? - java Collections are like containers that group multiple items into one unit.
+What is Collections?
 
-Collection - it is a list of things.
-Collections is the Framework - therefore we cannot use the primitive Data Types,
-                               when working with Collections.
+- Java Collections are like containers that group multiple items into one unit;
+- it is a list of things;
+- Collections is the Framework, therefore we cannot use the primitive Data Types, when working with Collections;
+
+List:
+- is an ordered collection of elements, which allows storing of duplicate values;
+- List is an Interface, therefore we cannot create an Object of it;
+- we need a Class, which will implement List Interface first, and then we can create an Object of that class;
+- ArrayList and LinkedList are the Classes that implement the List Interface
+
 SDETs -> ArrayList
-DEVs -> LinkedList
+ArrayList - Objects are getting stored in a sequence in the memory, so in the ArrayList insertion and deletion operations
+            will take more time, searching and traversing will take less time.
 
-ArrayList and HashMap are commonly used in Selenium Automation tests.
+DEVs -> LinkedList
+LinkedList - Objects are getting stored in the form of Doubly LinkedList, so insertion and deletion operation
+            will take less time, searching and traversing will take more time;
+
+Array va ArrayList:
+1) Array is fixed size                              1) ArrayList is dynamic
+2) we do not have rich collection                   2) we do have a rich collection
+   of pre-defined methods in the Array                 of pre-defined methods in the ArrayList
+
+!! ArrayList and HashMap are commonly used in Selenium Automation tests.
 
 What is the LinkedList?
 A linked list is a Collection of Objects linked together by references from an Object to another Object.
@@ -21,24 +38,6 @@ Each node has two items: a data field and a reference to the next node. The entr
 Where the list is empty, the head is a null reference and the last node has a reference to null.
 
 A linked list is a dynamic data structure, where the number of nodes is not fixed, and the list has the ability to grow and shrink on demand.
-
-DATA STRUCTURE GROUPS:
-Linear:
-static:
-- Array
-
-dynamic:
-- LinkedList
-- Stack
-- Queue
-
-Non-linear:
-- Trees (Binary Tree, Binary Search Tree, AVL, Red-Black Tree)
-- Graphs
-- Tables
-- HashSet
-- HashMap
-- Heap
 
 ** the parameter of Constructor is the value of the instance variable
 
