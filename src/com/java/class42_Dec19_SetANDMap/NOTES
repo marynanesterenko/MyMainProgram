@@ -34,14 +34,13 @@ MAP
    -> MAP behaves differently from all other Collection types;
    -> MAP represents a mapping between a key and value;
    -> it is possible to restrict the type of Object that can be stored in a Map;
-   ->
 
 2. How to declare a MAP? -> Map hm = new HashMap();
 
 3. What Class implement the Map Interface, so that we can create an Object of Map Type?
    -> HashMap (unordered, allows null keys and values)
    -> LinkedHashMap (predictable order)
-   -> TreeMap (predictable order)
+   -> TreeMap (predictable order, natural order)
 
 Why HashMap is needed?
 - it uses key-value pairs, which are fundamentals for organizing data;

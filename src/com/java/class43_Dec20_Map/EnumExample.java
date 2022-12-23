@@ -1,8 +1,15 @@
 package com.java.class43_Dec20_Map;
-
+/*
+! The less you touch your code, the more stable it is"
+NEXT TOPIC: REGEX
+ */
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+
+enum InputField{
+    AMOUNT, FROM_ACCOUNT, TO_ACCOUNT, NOTE
+}
 
 public class EnumExample {
     public static void main(String[] args) {
@@ -10,7 +17,6 @@ public class EnumExample {
         Map<String, String> dataOnInputPage = enterDetailsAndClickContinue();
         Map<String, String> dataOnReviewPage = getDataOnReviewPage();
 
-        // System.out.println(dataOnInputPage.equals(dataOnReviewPage));
         Set<String> keys = dataOnInputPage.keySet();
         for (String key : keys){
             System.out.println(dataOnInputPage.get(key));
@@ -27,10 +33,10 @@ public class EnumExample {
 
         Map<String, String> dataOnReviewPage = new HashMap<>();
 
-        dataOnReviewPage.put("from account", fromAcc);
-        dataOnReviewPage.put("to account", toAcc);
-        dataOnReviewPage.put("amount", String.valueOf(amount));
-        dataOnReviewPage.put("note", note);
+        dataOnReviewPage.put(InputField.FROM_ACCOUNT.toString(), fromAcc);
+        dataOnReviewPage.put(InputField.TO_ACCOUNT.toString(), toAcc);
+        dataOnReviewPage.put(InputField.AMOUNT.toString(), String.valueOf(amount));
+        dataOnReviewPage.put(InputField.NOTE.toString(), note);
 
         return dataOnReviewPage;
     }
@@ -49,10 +55,10 @@ public class EnumExample {
 
         Map<String, String> dataOnInputPage = new HashMap<>();
 
-        dataOnInputPage.put("from account", fromAcc);  // hard coding "from account" taking value from variable
-        dataOnInputPage.put("to account", toAcc);
-        dataOnInputPage.put("amount", String.valueOf(amount));
-        dataOnInputPage.put("note", note);
+        dataOnInputPage.put(InputField.FROM_ACCOUNT.toString(), fromAcc);
+        dataOnInputPage.put(InputField.TO_ACCOUNT.toString(), toAcc);
+        //dataOnInputPage.put(InputField.AMOUNT.toString(), amount.toString());
+        dataOnInputPage.put(InputField.NOTE.toString(), note);
         return dataOnInputPage;
     }
 }
