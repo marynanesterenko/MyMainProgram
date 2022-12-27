@@ -1,3 +1,15 @@
 INTERFACE:
 - API
 - UI
+
+is to create a contract
+2- Why do we need constructor in abstract class?
+
+	A constructor in an abstract class can be used to initialize your class for example if you use a final attribute. And the constructor from your subclass can call one constructor of the abstract class.
+
+4- What is use of interface? (use of interface contract with parent class), use contract word
+
+	Every time you implement an interface (or override a method from a parent class, same thing), you need to respect the contract of that interface. Respecting the contract means that you cannot throw more exceptions than in the interface declaration.
+	In both cases, Interface is the contract, and Parent is the implementation
+
+From the Java Language Specification, §8.2: Constructors, static initializers, and instance initializers are not members and therefore are not inherited.

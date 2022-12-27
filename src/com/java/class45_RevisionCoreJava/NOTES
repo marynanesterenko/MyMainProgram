@@ -1,0 +1,114 @@
+Identifiers - User defined names in java given to methods, variables, classes or packages
+    1) allowed characters a-z, 0-9, $, _
+    2) identifiers cannot start with digit 
+    3) Identifiers are case sensitive 
+    4) Cannot use keyword reserved by java as an identifier
+Naming Convention 
+    1) Variables and Method names - camelCasing  
+        first word all letters are small then subsequent word first letter capital - numFive
+    
+    2) packages - all small letters - com.java.class01
+    3) Class Name - Each word first letter should be captial - FirstJavaClass
+    4) Constant Name - ALL_CAPITAL_LETTERS
+Data Types 
+    Primitives - byte, short, int, long, float, double, char, boolean
+    Non Primitive - String, All other objects
+Variables
+    data_type variable_name = value;
+Type Casting
+    1) Implicit / Widening / Auto     - Storing smaller data into bigger data type variable 
+    2) Explicit / Narrowing / By User - Storing bigger data into smaller data type variable
+Types Java Operators 
+1) Assignment Operator (=)
+2) Arithmetic Operator (+, -, *, / , %)
+3) Relational Operator (>, >=, <, <=, ==, !=)
+4) Logical Operator (&&, ||, !) 
+5) Increment / Decrement Operator (++, --)
+Operator Priority and Associativity 
++, *   == * has greater priority 
+%, *   == same priority, left to right
+&&, || == && has greater priority
+Conditional Statement 
+    1) If Statements
+        1) Simple If
+        2) If Else
+        3) Ladder If Else
+        4) Nested If Else
+    2) Switch Statements 
+    3) Break and Continue statement
+Looping Statement
+    1) While Loop
+    2) Do-While loop
+    3) For Loop
+String Methods
+    1) equals()
+    2) equalsIgnoreCase()
+    3) toLowerCase(), toUpperCase()
+    4) contains()
+    5) charAt()
+    6) indexOf()
+    7) isEmpty(), isBlank()
+    8) length()
+    9) trim()
+    
+    10) subString()
+    11) split()
+    12) replace(), replaceAll()
+    13) format()
+
+Arrays  - to store collection of same types data 
+    
+    1D Array
+    
+        ==> Initialize the Array
+            int data[] = {34,43,46,52};
+            int data[] = new int[5];
+        ==> Find Size of the Array
+            data.length;
+        ==> Print all values of array
+        
+        1) Index based for loop
+        
+            for(int i=0; i<array.length; i++){
+                System.out.println(array[i]);
+            }
+        2) For Each Loop
+        
+            for( int num : array){
+                System.out.println(num)
+            }
+        ==> ArrayIndexOutOfBoundException
+            System.out.println(data[6]);
+    2D Array
+        ==> Initialize the Array
+            int data[][] = {{34,43,46},{43,56,23}};
+            int data[][] = new int[5][5];
+        ==> Find num of rows of Array
+            System.out.println(data.length);
+        ==> Find num of column of Array
+            System.out.println(data[i].length);
+            
+        ==> Print all values of array
+        
+        Index based for loop
+        
+            for(int i=0; i<array.length; i++){
+                for(int j=0; j<array[i].length; j++){
+                    System.out.println(array[i][j]);
+                }
+            }
+        For each loop
+                for(int row[]   : info )  {
+                        for (int num : row) {
+                            System.out.print(num+ " ");
+                        }
+                        System.out.println();
+                }
+
+                1 point -> 1 -2 hrs to finish.
+                2 points -> 1 day to finish
+                3 points -> 3 days to finish
+                5 points -> 1 week
+                8 points -> 2 weeks.
+                13 points -> 4 weeks. -> break this down to smaller tasks.
+
