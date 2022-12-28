@@ -1,4 +1,4 @@
-package com.java.class25_Nov14_IntroToOOP.ArraysRevision;
+package com.java.class24_Nov09_ArraysPractice.ArraysRevision;
 /*
 Task: write a program to find the length of each word.
 Output:

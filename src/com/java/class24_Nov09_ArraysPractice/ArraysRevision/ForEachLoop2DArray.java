@@ -1,4 +1,4 @@
-package com.java.class25_Nov14_IntroToOOP.ArraysRevision;
+package com.java.class24_Nov09_ArraysPractice.ArraysRevision;
 /*
 INTERVIEW QUESTION:
 Task: print the two-dimensional array using "for-each" loop?
