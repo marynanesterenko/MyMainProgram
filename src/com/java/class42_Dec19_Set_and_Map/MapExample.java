@@ -1,4 +1,4 @@
-package com.java.class42_Dec19_SetANDMap;
+package com.java.class42_Dec19_Set_and_Map;
 
 import java.util.HashMap;
 import java.util.Map;

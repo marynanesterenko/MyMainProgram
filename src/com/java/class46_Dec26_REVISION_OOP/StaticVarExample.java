@@ -1,4 +1,4 @@
-package com.java.class46_Dec26_Revision_OOP;
+package com.java.class46_Dec26_REVISION_OOP;
 
 
 class Car {

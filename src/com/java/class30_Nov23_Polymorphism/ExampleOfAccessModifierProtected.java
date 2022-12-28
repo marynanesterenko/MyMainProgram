@@ -1,6 +1,6 @@
-package com.java.class30_Nov23_polymorphism;
+package com.java.class30_Nov23_Polymorphism;
 
-import com.java.class31_Nov28_dynamic_polymorphism.Bank1;
+import com.java.class31_Nov28_Dynamic_Polymorphism.Bank1;
 
 public class ExampleOfAccessModifierProtected extends Bank1{
     public static void main(String[] args) {

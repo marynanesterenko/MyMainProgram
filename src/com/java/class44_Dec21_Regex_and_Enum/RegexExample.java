@@ -1,4 +1,4 @@
-package com.java.class44_Dec21_regexANDenum;
+package com.java.class44_Dec21_Regex_and_Enum;
 
 public class RegexExample {
     public static void main(String[] args) {

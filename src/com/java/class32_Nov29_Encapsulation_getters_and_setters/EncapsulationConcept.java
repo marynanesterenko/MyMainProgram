@@ -1,4 +1,4 @@
-package com.java.class32_Nov29_encapsulation_getters_setters;
+package com.java.class32_Nov29_Encapsulation_getters_and_setters;
 
 public class EncapsulationConcept {
     /*

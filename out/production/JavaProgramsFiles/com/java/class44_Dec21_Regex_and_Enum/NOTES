@@ -1,0 +1,20 @@
+ENUM:
+Interface cannot have constructor.
+
+Enum can have one or multiple constructors.
+
+Interface has different purposes to achieve abstraction.
+
+Enum is just used to store CONSTANT values.
+
+Interfaces are designed to define common behaviors.
+
+Enum is define common values.
+
+Enum represents a real value which can be compared to anther value or stored in database easily.
+
+Enums cannot be extended.
+
+REGEX:
+
+- we are using the regex to match the string in our application;

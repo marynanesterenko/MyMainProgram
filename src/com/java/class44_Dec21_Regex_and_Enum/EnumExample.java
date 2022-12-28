@@ -1,4 +1,4 @@
-package com.java.class44_Dec21_regexANDenum;
+package com.java.class44_Dec21_Regex_and_Enum;
 /*
 REAL TIME:
  the exampl could be storing the wording of the error messages in the enums

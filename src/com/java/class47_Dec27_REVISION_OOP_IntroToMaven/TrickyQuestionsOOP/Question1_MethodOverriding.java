@@ -1,4 +1,4 @@
-package com.java.class47_Dec27_RevisionOOP_Maven.TrickyQuestionsOOP;
+package com.java.class47_Dec27_REVISION_OOP_IntroToMaven.TrickyQuestionsOOP;
 /*
 Q: What will be the output?
 A: Lets run now!
@@ -21,7 +21,7 @@ class C extends B {
     }
 }
 
-public class Question {
+public class Question1_MethodOverriding {
     public static void main(String[] args) {
         C c = new C();
         c.run();

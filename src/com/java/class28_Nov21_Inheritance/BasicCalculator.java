@@ -1,4 +1,4 @@
-package com.java.class28_Nov21_inheritance;
+package com.java.class28_Nov21_Inheritance;
 
 class BasicCalculator {
     public void sum(int a, int b){

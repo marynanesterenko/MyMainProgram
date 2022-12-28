@@ -1,4 +1,4 @@
-package com.java.class46_Dec26_Revision_OOP.TrickyQuestions;
+package com.java.class46_Dec26_REVISION_OOP.TrickyQuestions;
 /*
 Will this code compile? - YES.
 

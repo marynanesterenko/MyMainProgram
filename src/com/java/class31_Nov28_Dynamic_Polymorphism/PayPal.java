@@ -1,4 +1,4 @@
-package com.java.class31_Nov28_dynamic_polymorphism;
+package com.java.class31_Nov28_Dynamic_Polymorphism;
 // PayPal
 
 public class PayPal {

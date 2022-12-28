@@ -1,4 +1,4 @@
-package com.java.class30_Nov23_polymorphism;
+package com.java.class30_Nov23_Polymorphism;
 /*
 Example of the dynamic polymorphism:
  */

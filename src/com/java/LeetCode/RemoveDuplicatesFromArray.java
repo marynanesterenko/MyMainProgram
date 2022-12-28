@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class RemoveDuplicatesFromArray {
     /*
-    1. It is impossible to change the length of an Array
+    1. It is impossible to change the length of an Question13_ArrayElementsWithComplexIndex
     2. "Assert" - Java keyword, used to define an assert statement;
         assert statement is used to declare an expected boolean condition in the program.
         If the program is running with the assertions enabled, then the condition is checked

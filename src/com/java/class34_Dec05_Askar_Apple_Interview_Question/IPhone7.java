@@ -1,4 +1,4 @@
-package com.java.class34_Dec05;
+package com.java.class34_Dec05_Askar_Apple_Interview_Question;
 
 public class IPhone7 extends TouchIDIphones {
 

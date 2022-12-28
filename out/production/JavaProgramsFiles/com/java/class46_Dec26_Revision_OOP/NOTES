@@ -1,0 +1,159 @@
+1. Methods
+- components:
+  * name
+  * return type
+  * parameters
+  * body
+
+2. basics of OOP
+  * Class (design / blue print / structure of an object)
+    ! Class doesn't occupy any memory
+
+  * Object (instance of the Class)
+    ! HEAP memory allocation, that the Object will take,
+      depends on the number of the instance variables present in the Class
+
+    variables:
+    - static
+    - instance
+    - constant
+
+    Constructor - initialize the Class variables (both static and instance),
+                  but generally we use it to initialize the instance(Object) variables;
+
+    Types of Constructors:
+    - Default Constructor (created by Java);
+    - No Argument Constructor (this one is created by the User and it doesn't pass any arguments)
+    - Parameterized Constructor
+
+    Rules Of Constructor:
+            - It is used to initialized class variables
+            - It doesn't have return type
+            - Constructor name should be same as a class name
+            - It'll be called when we create an object of class
+            - It can have access modifier - public, private, protected, default
+            - Constructor cannot be static, because it is not a member of the Class
+
+  static keyword:
+  Static Variable rules:
+  - declared a the Class level with "static" keyword
+  - every Objects shares a single copy of the variable if it is static
+  - we do not need to create an Object to access static variable
+  - we can access the static variable directly through the Class name
+
+  Purpose:
+  - ?
+
+  Non-static Variable
+  - we do not need to create an Object to access static method;
+  - we can access Static members only with the static members;
+
+Pillars of OOP:
+1. Inheritance
+   - one Class can acquire properties and methods of another Class
+   - super and sub Class
+   - extends keyword
+   - this. and super. keywords (this. refers to the Object of the current Class, and super. refers to the Object of the Parent Class,
+                                both keywords are applicable to vars, methods and Constructors);
+   - Constructor chaining - the process of calling one Constructor from another constructor with respect to current Object.
+                            One of the main use of constructor chaining is to avoid duplicate codes, while having multiple
+                            constructor (by means of constructor overloading) and make code more readable.
+
+   ! When we are creating an Object of the Child Class, but default - the Constructor of the Parent Class will get called first,
+     and then the Constructor of the Child Class will get called.
+
+2. Polymorphism
+   - methods overloading (it is a capability of Java, and the technique, that we can use if we need to have more than one
+                         method having the same name, but different method signature);
+
+   What is the purpose? - ?
+
+   - method overriding(it is when the Child Class can have the same method as Parent Class, but have a different implementation);
+   - dynamic polymorphism(it is when we use the Parent Class reference to store the Child Class Object in there);
+     ParentClass parentClassObject = new ChildClass();
+
+   !! When the Child Class Object is calling the method that is present inside the Parent Class,
+      the program will first look whether the method was overridden first
+
+   READ: Exception Handling with Method Overriding
+
+3. Encapsulation:
+   Access Modifiers:
+   - private (inside the same class ONLY);
+   - public (anywhere across the Website);
+   - protected (same package, but if outside the package - then within the sub-Class ONLY);
+   - default (within the package only)
+
+   get() method - method to get the value of the private variable
+   set() method - to update/change/modify the the value of the private variable
+
+4. Abstraction
+
+   Abstract Class:
+   - hiding the logic and showing only essential details to the User;
+   - can have 0 to 100% abstraction, which means we can have abstract as well as non-abstract methods;
+
+     !! It cannot have private methods
+   - we cannot create an Object of an Abstract Class
+   - Abstract Class can have Constructor
+   - it can have static as well as final vars
+   - if we have at least one method in the abstract, then we need to make Class abstract as well
+
+   Interface:
+   - 100% abstraction, all methods are abstract;
+   - we cannot create an Object of an Interface;
+   - Interface vars are public, static and final
+   - by default interface methods are public and abstract
+   - Class can implement multiple Interfaces at the same time, we use "implements" keyword once
+     and just list the Interfaces through comma;
+   - Interface can extend any number of Interfaces, but cannot implement it
+
+5. Final keyword is used to restrict the other Class:
+   - variables - cannot change value of variables, it is constant
+   - methods - cannot override final methods
+   - Classes - cannot inherit final Class
+
+   ! The difference between the implements and the extends - is that implements forces you to implement the methods
+
+6. Exception handling:
+
+   try - here we include the statements that can throw the exception
+   catch - to catch the exception and execute the exception handling statements
+   finally - finally block use to execute the set of statements regardless of exception is handled or not
+   throw - to throw our own exception
+   throws - warning to other methods that this method can throw listed exception
+
+   !! when we are writing the try catch statement - we have to
+
+7. Collection Frameworks:
+
+   Interface:       Classes:
+   List             ArrayList
+   Set              HashSet
+   Map              HashMap
+
+List - it is a type of collection which stores elements in an ordered sequence starting from index [0].
+Set - it is a type of collection which stores elements in an unordered way
+Map - it is a type of collection which stores key : value pairs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

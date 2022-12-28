@@ -1,4 +1,4 @@
-package com.java.class32_Nov29_encapsulation_getters_setters;
+package com.java.class32_Nov29_Encapsulation_getters_and_setters;
 /*
 - most of the automation frameworks do not allow to use the primitive data types
 - we should use the objects in an automation frameworks

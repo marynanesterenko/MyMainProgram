@@ -2,7 +2,7 @@ package com.java.class24_Nov09_ArraysPractice;
 /*
 2. Write a program to print the sum of each COLUMN from a 2D array
 Example
-Array:
+Question13_ArrayElementsWithComplexIndex:
         {23, 44, 21},
         {45, 42, 31},
         {73, 14, 0 }

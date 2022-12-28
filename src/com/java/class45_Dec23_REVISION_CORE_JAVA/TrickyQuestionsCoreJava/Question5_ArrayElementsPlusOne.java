@@ -1,4 +1,4 @@
-package com.java.class45_RevisionCoreJava.TrickyQuestionsCoreJava;
+package com.java.class45_Dec23_REVISION_CORE_JAVA.TrickyQuestionsCoreJava;
 /*
 Q: What would be the output?
 A: ArrayIndexOutOfBoundsException

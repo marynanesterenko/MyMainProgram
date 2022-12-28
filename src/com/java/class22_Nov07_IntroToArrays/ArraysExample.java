@@ -8,7 +8,7 @@ public class ArraysExample {
 
         int marksStudent1, marksStudent2, marksStudent3; // but what if we have 100 students?
 
-        int [] data; // Array declaration,; normally it is placed after the variable name
+        int [] data; // Question13_ArrayElementsWithComplexIndex declaration,; normally it is placed after the variable name
 
         // when we declare the array, it will NOT initialize the size in memory
         // whenever we want to store multiple values inside the var - it will not reserve any memory until we initialize the variable

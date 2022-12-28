@@ -1,4 +1,4 @@
-package com.java.class32_Nov29_encapsulation_getters_setters;
+package com.java.class32_Nov29_Encapsulation_getters_and_setters;
 // encapsulation suggests that the Class vars should be private
 // public allows us to create an Object of this Class outside of the package
 public class Car {
