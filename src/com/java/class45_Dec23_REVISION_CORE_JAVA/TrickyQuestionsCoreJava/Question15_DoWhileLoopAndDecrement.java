@@ -1,10 +1,11 @@
-package com.java.JavaTrickyQuestions;
+package com.java.class45_Dec23_REVISION_CORE_JAVA.TrickyQuestionsCoreJava;
 /*
 Q: What would be the output?
-A: 
-do while loop always executes at least once
+A: 0
+
+!! Remember: "do while" loop always executes at least once !!
  */
-public class Decrement {
+public class Question15_DoWhileLoopAndDecrement {
     public static void main(String[] args) {
         int i = 1;
 

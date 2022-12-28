@@ -5,11 +5,11 @@ public class IncrementDecrementOperator {
         int i = 1; // Initialization
 
 //        i++; // Increment Operator
-//        i--; // Decrement Operator
+//        i--; // Question15_DoWhileLoopAndDecrement Operator
 
         while (i < 5) { // Condition
             System.out.println(i);
-            i++; // Increment/Decrement
+            i++; // Increment/Question15_DoWhileLoopAndDecrement
         }
     }
 }

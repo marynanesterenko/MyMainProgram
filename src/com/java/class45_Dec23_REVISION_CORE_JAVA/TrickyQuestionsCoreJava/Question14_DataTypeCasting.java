@@ -7,7 +7,7 @@ A: ERROR
 !! We need to remember that we cannot store the bigger value inside the smaller value !!
    We can fix line 17 in the following way: a = (int)(a + d)
  */
-public class Question_14_DataTypeCasting {
+public class Question14_DataTypeCasting {
     public static void main(String[] args) {
         int a = 10;
         double d = a;
