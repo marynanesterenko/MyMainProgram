@@ -1,6 +1,10 @@
 package com.java.JavaTrickyQuestions;
 /*
+Q: What would be the output?
+A: 
+
 We need to find the updated values of the array
+
  */
 public class Array {
     public static void main(String[] args) {
