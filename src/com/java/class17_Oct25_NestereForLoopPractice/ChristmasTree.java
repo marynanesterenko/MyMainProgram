@@ -1,6 +1,6 @@
 package com.java.class17_Oct25_NestereForLoopPractice;
 /*
-TwoDimentions For Loop
+TwoDimentions For Question16_TrickyForLoop
  */
 
 public class ChristmasTree {
