@@ -11,7 +11,7 @@ Class notes:
 
 /*
 My notes:
-- Inheritance is an object-oriented programming technique, which allows you to use one class as a basis for another;
+- Inheritance is an object-oriented programming technique, which allows us to use one class as a basis for another;
 - the existing class is called the base class, super class or parent class;
 - the new class that is derived from it, is called the derived class, subclass or child class;
 - when we create the subclass, it is automatically given all the visible (public or protected)methods and fields of its superclass;
