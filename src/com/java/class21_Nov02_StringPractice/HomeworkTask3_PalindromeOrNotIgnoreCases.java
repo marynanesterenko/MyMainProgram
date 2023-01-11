@@ -3,7 +3,7 @@ package com.java.class21_Nov02_StringPractice;
 import java.util.Scanner;
 /*
 3. Java Program to determine whether a given string is palindrome or not by ignoring the case of characters and white spaces
-Example
+Example:
 Input - Was it a car or a cat I saw
 Output - Palindrome
  */

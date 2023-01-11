@@ -2,7 +2,6 @@ package com.java.class20_Nov01_StringPractice;
 
 /*
 Write the program to find the frequency of given character inside the string
-
  */
 public class FrequencyOfGivenCharacter {
     public static void main(String[] args) {
